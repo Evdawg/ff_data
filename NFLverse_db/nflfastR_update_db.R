@@ -4,7 +4,7 @@
 # if (!require("DBI")) install.packages("DBI")
 # if (!require("RPostgres")) install.packages("RPostgres")
 
-# dependencies
+# dependencies:
 library(tidyverse)
 library(ggrepel)
 library(nflreadr)
