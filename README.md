@@ -31,7 +31,7 @@ See [nfl_data_py library](https://github.com/cooperdff/nfl_data_py) for data imp
 	if_exists: string value, one of {‘fail’, ‘replace’, ‘append’} for writing to SQL database.
 
 #### Data Analysis and Visualization:
-Perform data analysis preferred tools. This project is to practice Microsoft Power BI.
+Perform data analysis with your preferred tools. This project is to practice Microsoft Power BI.
 
 
 **todo:** 
