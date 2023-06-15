@@ -11,7 +11,8 @@ Data is sourced from nflverse/nflfastR packages:
 R and R studio. Python 3. Power BI. PostgreSQL.
 
 
-#### Config:
+#### Config: 
+Create two config files in project location for connecting to preferred SQL db
 	config.yml inputs: dbname, host, port, password, user, timezone
 	config.ini inputs: database, hostname, username, pwd, port_id
 
