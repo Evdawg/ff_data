@@ -18,4 +18,4 @@ nfl.clean_nfl_data(rosters_df)
 
 
 print(f"Writing the dataframe to postgreSQL: \n")
-python_df_to_postgres(rosters_df, 'nfl_data_py_weekly', 'replace')
+python_df_to_postgres(rosters_df, 'nfl_data_py_rosters', 'replace')
