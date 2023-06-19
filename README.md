@@ -33,6 +33,9 @@ See [nfl_data_py library](https://github.com/cooperdff/nfl_data_py) for data imp
 #### Data Analysis and Visualization:
 Perform data analysis with your preferred tools. This project is to practice Microsoft Power BI.
 
+### Methods:
+Created measure that calculates the three-week rolling average per player of fantasy points in half-ppr scoring. This measure is dynamic based off latest week of the selected season. This measure will calculate previous occurences, ie) If a player was injured in early season, the average shown will be their latest three games played.
+
 
 **todo:** 
 - Create visuals per player position per week
