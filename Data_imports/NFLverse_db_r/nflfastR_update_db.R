@@ -1,10 +1,17 @@
-# install.packages("nflfastR")
-# install.packages("gsisdecoder")
-# install.packages("config")
-# if (!require("DBI")) install.packages("DBI")
-# if (!require("RPostgres")) install.packages("RPostgres")
+# install dependencies:
+if (!require("vctrs")) install.packages("vctrs")
+if (!require("Rcpp")) install.packages("Rcpp")
+if (!require("tidyverse")) install.packages("tidyverse")
+if (!require("ggrepel")) install.packages("ggrepel")
+if (!require("nflreadr")) install.packages("nflreadr")
+if (!require("nflplotR")) install.packages("nflplotR")
+if (!require("nflfastR")) install.packages("nflfastR")
+if (!require("DBI")) install.packages("DBI")
+if (!require("RPostgres")) install.packages("RPostgres")
+if (!require("config")) install.packages("config")
 
-# dependencies:
+
+# load dependencies:
 library(tidyverse)
 library(ggrepel)
 library(nflreadr)

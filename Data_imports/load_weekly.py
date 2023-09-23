@@ -14,5 +14,7 @@ weekly_data = nfl.import_weekly_data(years_range)
 weekly_df = pd.DataFrame(weekly_data)
 nfl.clean_nfl_data(weekly_df)
 
-print(f"Attempting to write the dataframe to postgreSQL: \n")
-python_df_to_postgres(weekly_df, 'nfl_data_py_weekly', 'replace')
+print(weekly_df.head(15))
+
+# print(f"Attempting to write the dataframe to postgreSQL: \n")
+# python_df_to_postgres(weekly_df, 'nfl_data_py_weekly', 'replace')

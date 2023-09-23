@@ -38,7 +38,7 @@ def python_df_to_postgres(dataframe, table_name, if_exists):
     ### End code block here.
     #-----------------------------------------------------------------------------------------------------------------------
 
-    # Send the Pandas DataFrame (roster_df) to a SQL database using psycopg2 and SQLalchemy libraries:
+    # Send the Pandas DataFrame to a SQL database using psycopg2 and SQLalchemy libraries:
         with engine.begin() as connection:
             dataframe.to_sql(
                 name= table_name,
